@@ -63,3 +63,57 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+/* main */
+
+/* .main {
+
+} */
+
+/* hero */
+
+.hero {
+    background-color:#EBE2D7;
+}
+
+.hero__inner{
+    padding: 90px 0 5px;
+    text-align: center;
+}
+
+.hero__title {
+    margin-bottom: 10px;
+
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A274E;
+}
+
+.hero__subtitle {
+    margin-bottom: 10px;
+
+    font-size: 22px;
+    font-weight: 700;
+    color: #1A274E;
+}
+
+.hero__dots {
+    display: flex; 
+    gap: 8px; 
+    justify-content: center; 
+    margin-top: 65px;
+}
+
+.dot {
+    width: 8px;  
+    height: 8px; 
+    background-color: #fff; 
+    border-radius: 50%; 
+    transition: background-color 0.3s ease; 
+    cursor: pointer; 
+}
+
+.dot.active {
+    background-color: #1e2a78; 
+    transform: scale(1.2); 
+}
